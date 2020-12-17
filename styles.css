@@ -1,3 +1,10 @@
+a {
+    text-decoration: none;
+    padding: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(82, 82, 82);
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -6,16 +13,6 @@ ul {
 
 li {
     display: inline;
-}
-
-div {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
 }
 
 h3 {
@@ -28,15 +25,138 @@ h4 {
     display: inline-block;
 }
 
+header {
+    position: fixed;
+    height: 50;
+    width: 100%;
+    font-size: 13px;
+    top: 0;
+    margin: 20px 20px 20px 20px;
+}
+
+footer {
+    background-color: rgb(233, 233, 233);
+    border-color: rgb(110, 110, 110);
+    position: fixed;
+    margin-top: 2%;
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    font-size: 0.8em;
+    bottom: 0;
+}
+
+span a {
+    font-size: 15px;;
+}
+
+.sign-in-button {
+    background-color: #4885ed;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 7px 10px;
+    position: relative;
+    bottom: 7px;
+    font-weight: bold;
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
 .ten-margin {
     margin: 10px;
 }
 
-.navbar-margin {
-    margin: 0px 10px 0px 0px;
+.align-left {
+    float: left;
 }
 
-.bar-width {
-    width: 400px;
-    border-radius: 5%;
+.align-right {
+    float: right;
+    width: 280px;
+}
+
+.footer-left {
+    float: left;
+    padding: 20px;
+}
+
+.footer-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.leaf {
+    height: 15px;
+}
+
+.footer-right {
+    float: right;
+    padding: 20px;
+}
+
+.fa-search {
+    color: grey;
+}
+
+.fa-th {
+    font-size: 20px;
+  }
+
+.search-div {
+    margin: 0 auto;
+    width: 575px;
+    border-radius: 30px;
+    border: 1px solid grey;
+}
+
+.search-div:hover {
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+
+.search-div:focus-within {
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+    outline: none;
+}
+
+.searchbar {
+    font-size: 15px;
+    width: 500px;
+    height: 35px;
+    border: 0px solid grey;
+}
+
+.searchbar:focus-within {
+    border: 0px solid grey;
+    outline: none;
+}
+
+.button {
+    background-color: rgb(206, 206, 206);
+    border: none;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 4px;
+    outline: none;
+}
+
+.button:hover {
+    border: 1px solid grey;
+    padding: 9px 19px;
+    color: black;
 }

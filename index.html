@@ -1,22 +1,64 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Google Homepage Project">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="jabcodes23">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles.css">
+        <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" data-auto-a11y></script>
         <title>Google Homepage by jabcodes23</title>
     </head>
 
     <body>
-        <ul>
-            <li class="navbar-margin"><a href="#">Home</a></li>
-            <li class="navbar-margin"><a href="#">GMail</a></li>
-            <li class="navbar-margin"><a href="#">Images</a></li>
-        </ul>
+        <header>
+            <div class="align-left">
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Store</a></li>
+                </ul>
+            </div>
+
+            <div class="align-right">
+                <ul>
+                    <li><a href="#">GMail</a></li>
+                    <li><a href="#">Images</a></li>
+                    <li><a href="#"><i class="fas fa-th"></i></a></li>
+                    <li><a href="#"><button type="input" class="sign-in-button">Sign in</button></a></li>
+                </ul>
+            </div>
+        </header>
+        
         <div class="center">
             <a href="https://www.google.com"><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo"></a>
             <form action="https://www.google.com">
-                <input class="ten-margin bar-width" type="text"><br>
-                <button type="input">Submit</button>
+                <div class="search-div">
+                    <i class="fas fa-search"></i><input class="ten-margin searchbar" type="text"></input>
+                </div>
+                <br>
+                <button type="input" class="button">Google Search</button>
+                <button type="input" class="button">I'm Feeling Lucky</button>
             </form>
         </div>
+
+        <footer>
+            <span class="footer-left">
+                <a href="#">Advertising</a>
+                <a href="#">Business</a>
+                <a href="#">How Search Works</a>
+            </span>  
+
+            <span class="footer-center">
+                <img class="leaf" alt="Leaf image" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAYCAMAAAAiV0Z6AAAAPFBMVEVLoEN0wU6CzFKCzFKCzFKCzFKCzFJSo0MSczNDmkCCzFJPoUMTczNdr0gmgziCzFITczMTczMTczMTczPh00jOAAAAFHRSTlPF/+bIsms8Ad///hX+//5/tXw7aMEAx10AAACaSURBVHgBbc4HDoRQCATQ33tbvf9dF9QxaCT9UQaltLHOh/golXKhMs5Xqa0xU1lyoa2fXFyQOsDG38qsLy4TaV+sFislovyhPzLJJrBu6eQOtpW0LjbJkzTuTDLRVNKa3uxJI+VdiRqXSeu6GW+Qxi29eLIi8H7EsYrT42BD+mQtNO5JMjRuC4lSY8V4hsLX0egGijvUSEP9AbylEsOkeCgWAAAAAElFTkSuQmCC" />
+                <a href="#">Carbon neutral since 2007</a>
+            </span>
+
+            <span class="footer-right">
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="#">Settings</a>
+            </span>
+        </footer>
     </body>
 </html> 
